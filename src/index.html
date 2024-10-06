@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BaiTap_js_buoi03</title>
+
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="test border-red-500 border-8 m-8">
+        <div class="hienMK text-black m-6">
+          <h2 class="text-yellow-600 text-center text-xl font-bold">
+            bài tập hiện thông tin người dùng
+          </h2>
+          <div class="mt-5">
+            <div
+              class="user border border-red-500 rounded-xl m-2 w-full p-4 ml-4"
+            >
+              <label for="">Tài khoảng: </label>
+              <input id="UserName" type="text" placeholder="User Name" />
+            </div>
+            <div
+              class="pass border border-red-500 rounded-xl m-2 w-full p-4 ml-4"
+            >
+              <label for="">Mật khẩu: </label>
+              <input id="inputPass" type="password" placeholder="Password" />
+              <button id="showPass" onclick="show()">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <button
+            id="kiemTraDiemSo"
+            class="bg-black text-white text-xl rounded-xl p-2 mt-5"
+          >
+            Đăng nhập
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./js/main.js"></script>
+  </body>
+</html>
